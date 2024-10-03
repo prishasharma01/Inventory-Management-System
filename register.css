@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images.html/home\ background.jpg);
+    background-size:100% 100%; 
+    
+    
+}
+div.main{
+    width:500px;
+    margin:100px auto 0px auto;
+
+}
+h2{
+    text-align: center;
+    padding:20px;
+    font-family: sans-serif;
+    color:rgba(214, 135, 16, 0.815);
+}
+div.register{
+    background-color:black;
+    width:100%;
+    font-size:18px;
+    border-radius:10px;
+    border:1px solid rgba(255,255,255,0.3);
+    color:black;
+    text-align: center;
+    border:5px solid black;
+    border-radius: 8px;
+    
+
+
+}
+form#register{
+    margin:40px;
+    
+}
+label{
+    font-family:sans-serif;
+    font-style:normal;
+    
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+}
+input#name{
+    width:400px;
+    
+    border-radius:3px;
+    outline:0;
+    
+    background-color:white;
+    height:30px;
+    
+    border:2px solid black;
+    font-size:20px;
+    padding:5px;
+    text-align:center;
+ 
+}
+button{
+    width:200px;
+    padding:10px 0;
+    text-align: center;
+    margin: 20px 3px;
+    border-radius: 15px;
+    font-weight: bold;
+    border:2px;
+    background-color:rgba(214, 135, 16, 0.815);
+    cursor:pointer;
+    position: relative;
+}
+button a{
+    color:white;
+    text-decoration: none;
+    font-size:17px;
+}
+
+form#male{
+    font-size: 3px;
+}

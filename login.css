@@ -1,0 +1,76 @@
+body{
+    background:no-repeat center center fixed;
+    background-size:cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images.html/home\ background.jpg);
+    
+}
+h3{
+    color:rgba(214, 135, 16, 0.815);
+    font-size: 40px;
+    font-style:normal;
+    text-align: center;
+    margin-top:0;
+}
+
+div.loginheader p{
+    color:black;
+    font-size: 50px;
+    border-bottom:0px solid black;
+    margin:0px;
+}
+div.loginbody form{
+    top:50%;
+    margin:100px auto;
+    width:450px;
+    background-color:black;
+    padding:50px;
+    border:5px solid black;
+    border-radius: 8px;
+}
+div.logininput{
+    margin-top:20px;
+}
+div.logininput label{
+    display:block;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+}
+div.logininput input{
+    height:30px;
+    width:100%;
+    border:2px solid black;
+    font-size:20px;
+    padding:5px;
+    text-align:center;
+}
+div.loginbutton{
+    margin-top:40px;
+
+}
+div.loginbutton button{
+    font-size:20px;
+    padding:10px 40px;
+    background:rgba(214, 135, 16, 0.815);
+    border:none;
+    color:white;
+}
+button{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border:2px;
+    background-color:rgba(214, 135, 16, 0.815);
+    cursor:pointer;
+    position: relative;
+}
+button a{
+    color:white;
+    text-decoration: none;
+}
+
+
